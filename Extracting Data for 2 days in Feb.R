@@ -18,4 +18,4 @@ df <- cbind(dateTime, df)
 df <- df[ ,!(names(df) %in% c("Date","Time"))]
 
 ## Format dateTime Column
-df$dateTime <- as.POSIXct(dateTime)
+df$dateTime <- as.POSIXct(dateTime) 
